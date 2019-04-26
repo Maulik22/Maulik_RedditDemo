@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA9987E227361C0006F8150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9987D227361C0006F8150 /* AppDelegate.swift */; };
+		4CA99880227361C0006F8150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9987F227361C0006F8150 /* ViewController.swift */; };
+		4CA99883227361C0006F8150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA99881227361C0006F8150 /* Main.storyboard */; };
+		4CA99886227361C0006F8150 /* Maulik_RedditDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CA99884227361C0006F8150 /* Maulik_RedditDemo.xcdatamodeld */; };
+		4CA99888227361C2006F8150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA99887227361C2006F8150 /* Assets.xcassets */; };
+		4CA9988B227361C2006F8150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA99889227361C2006F8150 /* LaunchScreen.storyboard */; };
+		4CA99896227361C3006F8150 /* Maulik_RedditDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA99895227361C3006F8150 /* Maulik_RedditDemoTests.swift */; };
+		4CA998A1227361C3006F8150 /* Maulik_RedditDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA998A0227361C3006F8150 /* Maulik_RedditDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA99892227361C3006F8150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA99872227361C0006F8150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA99879227361C0006F8150;
+			remoteInfo = Maulik_RedditDemo;
+		};
+		4CA9989D227361C3006F8150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA99872227361C0006F8150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA99879227361C0006F8150;
+			remoteInfo = Maulik_RedditDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CA9987A227361C0006F8150 /* Maulik_RedditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maulik_RedditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA9987D227361C0006F8150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CA9987F227361C0006F8150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CA99882227361C0006F8150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CA99885227361C0006F8150 /* Maulik_RedditDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Maulik_RedditDemo.xcdatamodel; sourceTree = "<group>"; };
+		4CA99887227361C2006F8150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CA9988A227361C2006F8150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CA9988C227361C2006F8150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA99891227361C3006F8150 /* Maulik_RedditDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Maulik_RedditDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA99895227361C3006F8150 /* Maulik_RedditDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maulik_RedditDemoTests.swift; sourceTree = "<group>"; };
+		4CA99897227361C3006F8150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA9989C227361C3006F8150 /* Maulik_RedditDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Maulik_RedditDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA998A0227361C3006F8150 /* Maulik_RedditDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maulik_RedditDemoUITests.swift; sourceTree = "<group>"; };
+		4CA998A2227361C3006F8150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA99877227361C0006F8150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9988E227361C3006F8150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA99899227361C3006F8150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA99871227361C0006F8150 = {
+			isa = PBXGroup;
+			children = (
+				4CA9987C227361C0006F8150 /* Maulik_RedditDemo */,
+				4CA99894227361C3006F8150 /* Maulik_RedditDemoTests */,
+				4CA9989F227361C3006F8150 /* Maulik_RedditDemoUITests */,
+				4CA9987B227361C0006F8150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA9987B227361C0006F8150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9987A227361C0006F8150 /* Maulik_RedditDemo.app */,
+				4CA99891227361C3006F8150 /* Maulik_RedditDemoTests.xctest */,
+				4CA9989C227361C3006F8150 /* Maulik_RedditDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA9987C227361C0006F8150 /* Maulik_RedditDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9987D227361C0006F8150 /* AppDelegate.swift */,
+				4CA9987F227361C0006F8150 /* ViewController.swift */,
+				4CA99881227361C0006F8150 /* Main.storyboard */,
+				4CA99887227361C2006F8150 /* Assets.xcassets */,
+				4CA99889227361C2006F8150 /* LaunchScreen.storyboard */,
+				4CA9988C227361C2006F8150 /* Info.plist */,
+				4CA99884227361C0006F8150 /* Maulik_RedditDemo.xcdatamodeld */,
+			);
+			path = Maulik_RedditDemo;
+			sourceTree = "<group>";
+		};
+		4CA99894227361C3006F8150 /* Maulik_RedditDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA99895227361C3006F8150 /* Maulik_RedditDemoTests.swift */,
+				4CA99897227361C3006F8150 /* Info.plist */,
+			);
+			path = Maulik_RedditDemoTests;
+			sourceTree = "<group>";
+		};
+		4CA9989F227361C3006F8150 /* Maulik_RedditDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA998A0227361C3006F8150 /* Maulik_RedditDemoUITests.swift */,
+				4CA998A2227361C3006F8150 /* Info.plist */,
+			);
+			path = Maulik_RedditDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA99879227361C0006F8150 /* Maulik_RedditDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA998A5227361C3006F8150 /* Build configuration list for PBXNativeTarget "Maulik_RedditDemo" */;
+			buildPhases = (
+				4CA99876227361C0006F8150 /* Sources */,
+				4CA99877227361C0006F8150 /* Frameworks */,
+				4CA99878227361C0006F8150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maulik_RedditDemo;
+			productName = Maulik_RedditDemo;
+			productReference = 4CA9987A227361C0006F8150 /* Maulik_RedditDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CA99890227361C3006F8150 /* Maulik_RedditDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA998A8227361C3006F8150 /* Build configuration list for PBXNativeTarget "Maulik_RedditDemoTests" */;
+			buildPhases = (
+				4CA9988D227361C3006F8150 /* Sources */,
+				4CA9988E227361C3006F8150 /* Frameworks */,
+				4CA9988F227361C3006F8150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA99893227361C3006F8150 /* PBXTargetDependency */,
+			);
+			name = Maulik_RedditDemoTests;
+			productName = Maulik_RedditDemoTests;
+			productReference = 4CA99891227361C3006F8150 /* Maulik_RedditDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CA9989B227361C3006F8150 /* Maulik_RedditDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA998AB227361C3006F8150 /* Build configuration list for PBXNativeTarget "Maulik_RedditDemoUITests" */;
+			buildPhases = (
+				4CA99898227361C3006F8150 /* Sources */,
+				4CA99899227361C3006F8150 /* Frameworks */,
+				4CA9989A227361C3006F8150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA9989E227361C3006F8150 /* PBXTargetDependency */,
+			);
+			name = Maulik_RedditDemoUITests;
+			productName = Maulik_RedditDemoUITests;
+			productReference = 4CA9989C227361C3006F8150 /* Maulik_RedditDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA99872227361C0006F8150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Maulik Bhuptani";
+				TargetAttributes = {
+					4CA99879227361C0006F8150 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4CA99890227361C3006F8150 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4CA99879227361C0006F8150;
+					};
+					4CA9989B227361C3006F8150 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4CA99879227361C0006F8150;
+					};
+				};
+			};
+			buildConfigurationList = 4CA99875227361C0006F8150 /* Build configuration list for PBXProject "Maulik_RedditDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA99871227361C0006F8150;
+			productRefGroup = 4CA9987B227361C0006F8150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA99879227361C0006F8150 /* Maulik_RedditDemo */,
+				4CA99890227361C3006F8150 /* Maulik_RedditDemoTests */,
+				4CA9989B227361C3006F8150 /* Maulik_RedditDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA99878227361C0006F8150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA9988B227361C2006F8150 /* LaunchScreen.storyboard in Resources */,
+				4CA99888227361C2006F8150 /* Assets.xcassets in Resources */,
+				4CA99883227361C0006F8150 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9988F227361C3006F8150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9989A227361C3006F8150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA99876227361C0006F8150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA99886227361C0006F8150 /* Maulik_RedditDemo.xcdatamodeld in Sources */,
+				4CA99880227361C0006F8150 /* ViewController.swift in Sources */,
+				4CA9987E227361C0006F8150 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9988D227361C3006F8150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA99896227361C3006F8150 /* Maulik_RedditDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA99898227361C3006F8150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA998A1227361C3006F8150 /* Maulik_RedditDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA99893227361C3006F8150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA99879227361C0006F8150 /* Maulik_RedditDemo */;
+			targetProxy = 4CA99892227361C3006F8150 /* PBXContainerItemProxy */;
+		};
+		4CA9989E227361C3006F8150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA99879227361C0006F8150 /* Maulik_RedditDemo */;
+			targetProxy = 4CA9989D227361C3006F8150 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CA99881227361C0006F8150 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA99882227361C0006F8150 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CA99889227361C2006F8150 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA9988A227361C2006F8150 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CA998A3227361C3006F8150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CA998A4227361C3006F8150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA998A6227361C3006F8150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUFR93W9MQ;
+				INFOPLIST_FILE = Maulik_RedditDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Maulik.Maulik-RedditDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CA998A7227361C3006F8150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUFR93W9MQ;
+				INFOPLIST_FILE = Maulik_RedditDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Maulik.Maulik-RedditDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CA998A9227361C3006F8150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUFR93W9MQ;
+				INFOPLIST_FILE = Maulik_RedditDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Maulik.Maulik-RedditDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maulik_RedditDemo.app/Maulik_RedditDemo";
+			};
+			name = Debug;
+		};
+		4CA998AA227361C3006F8150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUFR93W9MQ;
+				INFOPLIST_FILE = Maulik_RedditDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Maulik.Maulik-RedditDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maulik_RedditDemo.app/Maulik_RedditDemo";
+			};
+			name = Release;
+		};
+		4CA998AC227361C3006F8150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUFR93W9MQ;
+				INFOPLIST_FILE = Maulik_RedditDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Maulik.Maulik-RedditDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Maulik_RedditDemo;
+			};
+			name = Debug;
+		};
+		4CA998AD227361C3006F8150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUFR93W9MQ;
+				INFOPLIST_FILE = Maulik_RedditDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Maulik.Maulik-RedditDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Maulik_RedditDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA99875227361C0006F8150 /* Build configuration list for PBXProject "Maulik_RedditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA998A3227361C3006F8150 /* Debug */,
+				4CA998A4227361C3006F8150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA998A5227361C3006F8150 /* Build configuration list for PBXNativeTarget "Maulik_RedditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA998A6227361C3006F8150 /* Debug */,
+				4CA998A7227361C3006F8150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA998A8227361C3006F8150 /* Build configuration list for PBXNativeTarget "Maulik_RedditDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA998A9227361C3006F8150 /* Debug */,
+				4CA998AA227361C3006F8150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA998AB227361C3006F8150 /* Build configuration list for PBXNativeTarget "Maulik_RedditDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA998AC227361C3006F8150 /* Debug */,
+				4CA998AD227361C3006F8150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CA99884227361C0006F8150 /* Maulik_RedditDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CA99885227361C0006F8150 /* Maulik_RedditDemo.xcdatamodel */,
+			);
+			currentVersion = 4CA99885227361C0006F8150 /* Maulik_RedditDemo.xcdatamodel */;
+			path = Maulik_RedditDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CA99872227361C0006F8150 /* Project object */;
+}
