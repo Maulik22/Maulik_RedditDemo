@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9A96C8227385D900067248 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A96C7227385D900067248 /* PostTableViewCell.swift */; };
 		4CA9987E227361C0006F8150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9987D227361C0006F8150 /* AppDelegate.swift */; };
 		4CA99880227361C0006F8150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9987F227361C0006F8150 /* ViewController.swift */; };
 		4CA99883227361C0006F8150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA99881227361C0006F8150 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		4CA9988B227361C2006F8150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA99889227361C2006F8150 /* LaunchScreen.storyboard */; };
 		4CA99896227361C3006F8150 /* Maulik_RedditDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA99895227361C3006F8150 /* Maulik_RedditDemoTests.swift */; };
 		4CA998A1227361C3006F8150 /* Maulik_RedditDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA998A0227361C3006F8150 /* Maulik_RedditDemoUITests.swift */; };
+		4CA998AF227363BD006F8150 /* BusinessLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA998AE227363BD006F8150 /* BusinessLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C9A96C7227385D900067248 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		4CA9987A227361C0006F8150 /* Maulik_RedditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maulik_RedditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA9987D227361C0006F8150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CA9987F227361C0006F8150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		4CA9989C227361C3006F8150 /* Maulik_RedditDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Maulik_RedditDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA998A0227361C3006F8150 /* Maulik_RedditDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maulik_RedditDemoUITests.swift; sourceTree = "<group>"; };
 		4CA998A2227361C3006F8150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA998AE227363BD006F8150 /* BusinessLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4CA99889227361C2006F8150 /* LaunchScreen.storyboard */,
 				4CA9988C227361C2006F8150 /* Info.plist */,
 				4CA99884227361C0006F8150 /* Maulik_RedditDemo.xcdatamodeld */,
+				4C9A96C7227385D900067248 /* PostTableViewCell.swift */,
+				4CA998AE227363BD006F8150 /* BusinessLayer.swift */,
 			);
 			path = Maulik_RedditDemo;
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			files = (
 				4CA99886227361C0006F8150 /* Maulik_RedditDemo.xcdatamodeld in Sources */,
 				4CA99880227361C0006F8150 /* ViewController.swift in Sources */,
+				4C9A96C8227385D900067248 /* PostTableViewCell.swift in Sources */,
 				4CA9987E227361C0006F8150 /* AppDelegate.swift in Sources */,
+				4CA998AF227363BD006F8150 /* BusinessLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
